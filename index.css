@@ -1,0 +1,184 @@
+/* display background color black on navbar scroll */
+.navbar {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/header1.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #03c7fd;
+}
+.servicesText:hover {
+    border: 1px solid #03c7fd;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 10px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #03c7fd;
+}
+.fab {
+    color: #000000;
+}
+
+/*About Section */
+
+
+/* About Section */
+/* footer styling *
+#footer {
+    background-color: #808080;
+    text-align: center;
+}*/
+.footer-07 {
+    background: #121212;
+}
+footer {
+    padding: 7em 0;
+}
+ footer{
+    display: block;
+}
+.footer-07 .footer-heading .logo {
+    color: #fff;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    transition: .3s all ease;
+}
+.footer-07 .menu {
+    margin-bottom: 30px;
+}
+.footer-07 p {
+    color: rgba(255, 255, 255, 0.3);
+}
+.footer-07 .menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.p-0 {
+    padding: 0 !important;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.text-center {
+    text-align: center !important;
+    font-size: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text-middle {
+    text-align: center !important;
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+
+li {
+    text-align: -webkit-match-parent;
+}
+.footer-07 .ftco-footer-social li a {
+    background: transparent;
+    border: 1px solid #03c7fd;
+}
+
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+.footer-07 a {
+    color: #03c7fd;
+}
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ion-logo-twitter:before {
+    content: "\f2b0";
+}
+
+.form {
+    align-items: center;
+    margin: 10%;
+  
+    
+
+}
